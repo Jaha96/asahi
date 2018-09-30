@@ -1,0 +1,58 @@
+---
+title: 404 Хуудас олдсонгүй
+404: active
+id: error404
+class: error404 page page-404
+---
+	{{> navbar }}
+
+	{{!-- begin: content container --}}
+	<div class="page__wrapper">
+		{{!-- begin: content --}}
+
+		<div class="not-found">
+			<section class="section headline headline--on_home">
+				<div class="headline__wrap">
+					<div class="fp-bg__inner">
+						<div class="headline__bg fp-bg" style="background-image:url(/assets/img/2880x1500.png);"></div>
+					</div>
+					<div class="headline__inner">
+						<div class="headline__logo headline__animation headline__animation--fade">
+							<svg class="icon icon--logo" width="252" height="56">
+								<use xlink:href="#logo"></use>
+							</svg>
+						</div>
+						<h2 class="headline__title headline__animation headline__animation--fade">404</h2>
+						<p class="headline__text headline__animation headline__animation--fade">Уучилаарай хуудас олдсонгүй</p>
+						<div class="headline-actions">
+							<a href="/index.html" class="b24-web-form-popup-btn-7 button button--cta button-callback animated">Эхлэл рүү очих</a>
+						</div>
+					</div>
+				</div>
+			</section>
+		</div>
+		<style>
+		@media (min-width: 1024px) {
+			.headline__logo svg {
+				display: none !important;
+			}
+			.page__wrapper {
+				padding: 0 !important;
+			}
+			.mouse-icon {
+				margin-left: 0;
+			}
+			#top_header .header__half:hover .menu .nav-list__item a{
+				border-color: transparent !important;
+			}
+		}
+		@media (max-width: 767px) {
+			.page__wrapper {
+				padding: 0 !important;
+			}
+		}
+		</style>
+		{{!-- end: content --}}
+	</div>
+	{{!-- end: content container --}}
+

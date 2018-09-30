@@ -1,0 +1,19 @@
+{
+  "extends": "baumeister",
+  "parser": "babel-eslint",
+  "parserOptions": {
+    "allowImportExportEverywhere": true
+  },
+  "globals": {
+    "PRODUCTION": false
+  },
+  "overrides": [
+    {
+      "files": ["build/*.js"],
+      "rules": {
+        "no-console": "off",
+        "unicorn/no-process-exit": "off"
+      }
+    }
+  ]
+}

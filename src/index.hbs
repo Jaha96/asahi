@@ -1,0 +1,102 @@
+---
+home: active
+id: page-main
+class: home page main-page
+---
+	{{> navbar }}
+
+	{{!-- begin: content container --}}
+	<div class="page__wrapper">
+		<div class="fullpage-scroll-mobile">
+			<div class="fullpage-scroll">
+				<section class="section headline headline--on_home" data-index="1">
+					<div class="headline__wrap">
+						<div class="fp-bg__inner">
+							<div class="headline__bg fp-bg" style="background-image:url(assets/img/2880x1500.png);"></div>
+						</div>
+						<div class="headline__inner">
+							<div class="headline__logo headline__animation headline__animation--fade">
+								<svg class="icon icon--logo" width="252" height="56">
+									<use xlink:href="#logo"></use>
+								</svg>
+							</div>
+							<h1 class="headline__title headline__animation headline__animation--fade">АСАХИ ХОТХОН</h1>
+							<p class="headline__text headline__animation headline__animation--fade">АСАХИ ХОТХОНАСАХИ ХОТХОНАСАХИ ХОТХОНАСАХИ ХОТХОНАСАХИ ХОТХОНАСАХИ ХОТХОН</p>
+							<div class="headline-actions">
+								<div class="headline-actions__item headline__animation headline__animation--fade">
+									<a class="headline-actions__inner" href="/360.html">
+										<span class="headline-actions__icon" style="margin-bottom: 15px;">
+											<svg class="icon icon--rotate" width="40px" height="40px">
+												<use xlink:href="#rotate"></use>
+											</svg>
+										</span>
+										<span class="headline-actions__text">360º<br>харах</span>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section class="section headline headline--on_home" data-index="2">
+					<div class="headline__wrap">
+						<div class="fp-bg__inner">
+							<div class="headline__bg fp-bg" style="background-image:url(assets/img/2880x1500.png);"></div>
+						</div>
+						<div class="headline__inner">
+							<div class="headline__logo headline__animation headline__animation--fade">
+								<svg class="icon icon--logo" width="252" height="56">
+									<use xlink:href="#logo"></use>
+								</svg>
+							</div>
+
+						</div>
+					</div>
+				</section>
+				<section class="section headline headline--on_home" data-index="3">
+					<div class="headline__wrap">
+						<div class="fp-bg__inner">
+							<div class="headline__bg fp-bg" style="background-image:url(assets/img/2880x1500.png);"></div>
+						</div>
+						<div class="headline__inner">
+							<div class="headline__logo headline__animation headline__animation--fade">
+								<svg class="icon icon--logo" width="252" height="56">
+									<use xlink:href="#logo"></use>
+								</svg>
+							</div>
+
+						</div>
+					</div>
+				</section>
+			</div>
+			<div class="mouse-icon"><span class="mouse-icon__scroll"></span></div>
+			<div class="scroll-counter">
+				<ul class="scroll-counter__list">
+					<li class="scroll-counter__item scroll-counter__item--is_active" data-index="1"><span class="scroll-counter__index">1</span></li>
+					<li class="scroll-counter__item" data-index="2"><span class="scroll-counter__index">2</span></li>
+					<li class="scroll-counter__item" data-index="3"><span class="scroll-counter__index">3</span></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<style>
+		@media (min-width: 1024px) {
+			.headline__logo svg {
+				display: none !important;
+			}
+			.page__wrapper {
+				padding: 0 !important;
+			}
+			.mouse-icon {
+				margin-left: 0;
+			}
+			#top_header .header__half:hover .menu .nav-list__item a{
+				border-color: transparent !important;
+			}
+		}
+		@media (max-width: 767px) {
+			.page__wrapper {
+				padding: 0 !important;
+			}
+		}
+	</style>
+	{{!-- end: content container --}}
