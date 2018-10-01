@@ -39,3 +39,7 @@ JS
 SVG - AI drawn & minimized
 
 webpack
+
+# nemelt node_modules
+
+nemelt dotorh folderuudiig node_modules ruu huulna
